@@ -1,6 +1,7 @@
 #  YOLOv4：Optimal Speed and Accuracy of Object Detection #
 
 https://hoya012.github.io/blog/yolov4/
+https://medium.com/visionwizard
 
 ## abstract ##
 논문 링크
