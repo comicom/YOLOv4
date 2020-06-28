@@ -1,7 +1,10 @@
 #  YOLOv4：Optimal Speed and Accuracy of Object Detection #
 
 https://hoya012.github.io/blog/yolov4/
+
 https://medium.com/visionwizard
+
+https://github.com/AlexeyAB/darknet
 
 ## abstract ##
 논문 링크
@@ -28,12 +31,36 @@ https://medium.com/visionwizard
 [yolov4 tutorial](https://youtu.be/sUxAVpzZ8hU)
 
 << best requirment >>
+- (darkNet)[https://github.com/AlexeyAB/darknet] 
 - CUDA 10.0
 - cuDNN 7.4.3
 - visual studio 2015
 - opencv 4.1.0
 
+[weight file](https://drive.google.com/file/d/1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT/view)
+
+### yolov4 tutorial ###
+
+1. Downloading DarkNet
+
+- (Alexeyab darknet)[https://github.com/AlexeyAB/darknet]
+
+2. Copying Open files into DarkNet
+
+3. Copying CuDNN files into DarkNet
+
+4. Changing the CuDNN version in DarkNet
+
+5. Compile YOLOv4 with update CUDA version
+
+6. compiling DarkNet
+
+7. Run Detction on Images
+
+8. Detection on Videos
+
 https://blog.naver.com/shuna11/221979528693
+
 ### problem1 ###
 
 include / library 디렉토리 잡는 법
@@ -50,7 +77,11 @@ library directories
 ### problem2 ###
 
 CUDA10.0.props & CUDA10.0.targets 잡는 법
+
 line56
+
 ```<Import Project="(cuda 설치 디렉토리)\extras\visual_studio_integration\MSBuildExtensions\CUDA10.0.props"/>```
+
 line308
+
 ```<Import Project="(cuda 설치 디렉토리)\extras\visual_studio_integration\MSBuildExtensions\CUDA10.0.targets"/>```
